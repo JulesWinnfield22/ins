@@ -53,7 +53,8 @@ const props = defineProps({
 }
 
 .primary {
-  @apply bg-primary text-white;
+  background-color:  var(--color-primary);
+  color: var(--color-white);
 }
 </style>
 <style>

@@ -3,9 +3,11 @@
 
 @theme {
   --color-primary: rgba(231, 56, 39, 1);
-  --color-text-clr: rgba(30, 30, 30, 1);
+  --color-dark: rgba(30, 30, 30, 1);
   --color-accent: rgb(247,241,241);
-  
+  --color-text-clr: var(--color-dark);
+  --color-light-gray: rgba(252, 249, 249, 1)
+
   --font-mulish: "Mulish", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
   --font-host-grotesk: "Host Grotesk", sans-serif;
