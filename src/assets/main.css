@@ -34,6 +34,7 @@
     color: var(--color-text-clr);
     font-optical-sizing: auto;
     font-weight: 400;
+    overflow-x: hidden;
     font-style: normal;
   }
 }

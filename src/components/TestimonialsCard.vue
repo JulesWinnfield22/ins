@@ -11,7 +11,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="rounded-md overflow-hidden isolate w-[20.875rem] testimonial-card-grid">
+  <div class="rounded-md overflow-hidden isolate min-w-[20.875rem] testimonial-card-grid">
     <div class="relative bg-transparent z-20 logo-area">
       <img
         height="50"
@@ -22,10 +22,10 @@ const props = defineProps({
     </div>
     <div class="gap-5 z-0 bg-gray-100 rounded-b-3xl flex flex-col items-center justify-center content-area">
 			<div class="flex flex-col gap-1.5" >
-				<span class="testimonials-title text-lg">{{testimonial.name}}</span>
+				<span class="testimonials-title text-xs md:text-lg">{{testimonial.name}}</span>
 				<span class="text-xs text-center opacity-60" >{{testimonial.job}}</span>
 			</div>
-      <p class="text-sm opacity-80 px-10 testimonials-description" >
+      <p class="text-xs md:text-sm opacity-80 px-10 testimonials-description" >
 				{{ testimonial.comment }}
 			</p>
     </div>
